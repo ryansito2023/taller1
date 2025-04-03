@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(128, 45, 45);
+}
+.enlace{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    
+    background-color: black;
+}
+a{
+    text-decoration: none;
+    color: rgb(253, 253, 253);
+}
+.card{
+
+    margin: 30px;
+    width: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 10px 5px rgb(0, 0, 0)
+    font-family: "Iansui", cursive;
+    text-align: center;
+    padding-left: 20px;
+    justify ;
+    
+    
+}
+p{
+    text-align: left;
+    color: rgb(0, 255, 42);
+
+}
+h2{
+    text-align: left;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+}
+.tarjeta{
+    display: flex;
+
+    
+}
+.card:hover{
+    background-color: #c43a21;
+    transform: scale(1.03);
+    
+
+}
+.card .footer{
+    padding: 20px;
+    text-align: center;
+}
+.footer a{
+    text-decoration: none;
+}
+   

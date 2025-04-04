@@ -1,0 +1,75 @@
+body{
+    background-color: red;
+}
+
+header {
+    background-color: black;
+    padding: 20px;
+}
+ 
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+ 
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+ 
+body{
+   text-align: center;
+   font-family: sans-serif;
+ 
+}
+nav {
+    margin-top: 10px;
+}
+ 
+nav a {
+    text-decoration: none;
+    color: salmon;
+    margin: 0 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.header-contaner img{
+    width: 200px ;
+}
+
+
+a{
+    text-decoration: none;
+color: white;
+}
+.sobre{
+    text-align: center;
+    color: lightgreen;
+    background-color: black;
+    margin-bottom: 50px;
+}
+.explica{
+text-align: center;
+color: chartreuse;
+animation-direction: reverse;
+}
+li{
+    align-items: center;
+}
+/* If screen size is LESS than 1200px wide */
+@media (max-width: 1200px){
+    /* Styles! */
+}
+ 
+/* If screen size is MORE than 800px wide */
+@media (min-width: 800px){
+    /* Styles! */
+}
+ 
+/* If screen size is BETWEEN 320px and 768px wide AND the orientation is in landscape mode */
+@media (min-width: 320px) and (max-width: 768px) and (orientation: landscape) {
+    /* Styles! */
+}

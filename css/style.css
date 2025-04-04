@@ -1,16 +1,47 @@
 body{
-    background-color: rgb(128, 45, 45);
+    background-color: red;
 }
-.enlace{
-    text-align: center;
-    display: flex;
-    justify-content: space-around;
-    
+header {
     background-color: black;
+    padding: 20px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+ 
+body{
+   text-align: center;
+   font-family: sans-serif;
+ 
+}
+ 
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+ 
+nav {
+    margin-top: 10px;
+}
+ 
+nav a {
+    text-decoration: none;
+    color: salmon;
+    margin: 0 15px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 a{
     text-decoration: none;
     color: rgb(253, 253, 253);
+}
+.header-contaner img{
+
+    width: 200px;
 }
 .card{
 
@@ -55,3 +86,17 @@ h2{
     text-decoration: none;
 }
    
+/* If screen size is LESS than 1200px wide */
+@media (max-width: 1200px){
+    /* Styles! */
+}
+ 
+/* If screen size is MORE than 800px wide */
+@media (min-width: 800px){
+    /* Styles! */
+}
+ 
+/* If screen size is BETWEEN 320px and 768px wide AND the orientation is in landscape mode */
+@media (min-width: 320px) and (max-width: 768px) and (orientation: landscape) {
+    /* Styles! */
+}
